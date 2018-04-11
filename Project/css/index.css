@@ -10,16 +10,10 @@ a {
 body {
     -webkit-font-smoothing: antialiased;
     font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-seri;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
-.loginBg{
-    margin-top: 42px;
-    background-image: url('../images/login.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    height: 860px;
-    position: relative;
-}
+
 ul {
     list-style: none;
 }
@@ -31,117 +25,3 @@ ul {
     overflow: hidden;
 }
 
-/*头部开始*/
-.header {
-    width: 1190px;
-    margin: 0 auto;
-    height: 35px;
-    background: #f5f5f5;
-}
-
-.header-left {
-    line-height: 35px;
-}
-
-.header-left li {
-    float: left;
-    margin-left: 20px;
-    padding: 0 6px;
-}
-
-.header-left .header-left-loginPerson i {
-    margin-right: 6px;
-    color: #FF5011 !important;
-}
-
-/*头部结束*/
-
-/*导航栏开始*/
-.nav {
-    width: 1190px;
-    margin: 0 auto;
-    height: 30px;
-    line-height: 30px;
-    position: relative;
-    color: #fff;
-    background: #ff9000;
-}
-
-.nav h2 {
-    float: left;
-    width: 280px;
-    text-align: center;
-    font-size: 16px;
-    background: #ff5000
-}
-
-.nav ul {
-    float: left;
-    font-size: 16px;
-    font-weight: 700;
-    position: relative;
-    z-index: 5;
-}
-
-.nav ul li {
-    float: left;
-    margin: 0 3px;
-    text-align: center;
-    padding: 0 4px;
-    cursor: pointer;
-}
-
-/*导航栏结束*/
-
-/*中心开始*/
-.background-image-left{
-    position: absolute;
-    top:143px;
-    left:-166px;
-}
-.background-image-left:hover{
-    position: absolute;
-    top:143px;
-    left:0;
-    transition: all 1s;
-}
-.content {
-    width: 1190px;
-    margin: 0 auto;
-}
-
-.content-left {
-    float: left;
-    margin: 0 auto;
-}
-
-.content-left ul li {
-    padding: 0 10px;
-    line-height: 32px;
-    height: 32px;
-    position: relative;
-    font-size: 14px;
-    font-weight: 400;
-    width: 260px;
-    background: hotpink;
-}
-
-.content-left ul li:hover {
-    background: deepskyblue;
-}
-
-.content-left ul li a {
-    color: white;
-}
-
-.content-left ul li a:hover {
-    text-decoration: underline;
-}
-
-/*中心结束*/
-
-.swiper-container {
-    float: left;
-    width: 910px;
-    height: 448px;
-}
