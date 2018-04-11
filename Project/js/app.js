@@ -11,13 +11,13 @@ myApp.config(["$stateProvider", function ($stateProvider,$urlRouterProvider) {
             templateUrl: 'template/baidubaike.html',
             controller:'fsCtrl'
         })
-        .state("second", {
-            url: '/bookStore',
-            templateUrl: 'template/bookStore.html',
-            controller: 'bookCtrl'
+        .state("login", {
+            url: '',
+            templateUrl: 'template/login.html',
+            controller: 'loginCtrl'
         })
         .state("home",{
-            url:'',
+            url:'/home',
             templateUrl:'template/home.html',
             controller:'homeCtrl'
         });

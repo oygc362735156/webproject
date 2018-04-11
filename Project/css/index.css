@@ -10,11 +10,16 @@ a {
 body {
     -webkit-font-smoothing: antialiased;
     font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-seri;
-    background: url("../images/DNF.jpg") center 0 no-repeat;
     background-size: cover;
-    /*background-color: #f4f4f4;*/
 }
-
+.loginBg{
+    margin-top: 42px;
+    background-image: url('../images/login.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 860px;
+    position: relative;
+}
 ul {
     list-style: none;
 }

@@ -1,0 +1,42 @@
+.txGame{
+    width: 205px;
+    padding: 0 15px 0 0;
+    background-position: 0 -40px;
+    position: absolute;
+    z-index: 10001;
+    top:0;
+    left:35%;
+    background-image: url('../images/ost-bg.png');
+    height: 40px;
+}
+
+.foot{
+    background-color: #282725 !important;
+    width: 1903px;
+    height: 224px;
+    font: 12px/20px "微软雅黑","宋体";
+    min-width: 960px;
+    margin: 0 auto;
+}
+.footMain{
+    padding-top: 20px;
+    width: 900px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.footBg{
+    background: url("../images/foot-light.png");
+    width:180px;
+    height: 35px;
+    display: block;
+    float: left;
+}
+.footUl{
+    border-left: 1px solid #8c8c8c;
+    float: left;
+    padding-left: 30px;
+}
+.footUl li{
+    margin-bottom: 5px;
+    color: #8c8c8c !important;
+}
