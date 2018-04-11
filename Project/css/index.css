@@ -100,11 +100,6 @@ ul {
     left:0;
     transition: all 1s;
 }
-.background-image-right{
-    position: absolute;
-    top:143px;
-    right:0;
-}
 .content {
     width: 1190px;
     margin: 0 auto;
